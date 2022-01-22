@@ -17,7 +17,7 @@ https://namu.wiki/w/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A
 
 ![https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif](https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif)
 
-
+***
 
 # 오, 그러면 이걸 어떻게 활용하는데?🤔
 
@@ -25,7 +25,7 @@ https://namu.wiki/w/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A
 - N이 1,000,000을 넘겨도, 모든 범위를 한 바퀴는 돌기 때문에, **지금 보는 수가 소수인지 아닌지** 알 수 있고 이를 이용하여 문제해결에 활용할 수 있어요
 - 소수를 구해서 활용해야 하는 문제에서 **강한 무기**가 되어줄거에요
 
-
+***
 
 # 알겠는데, 그래서 코드로는 어떻게 짜?😵
 
@@ -51,7 +51,7 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19]
 
 [Python Tutor - Visualize Python, Java, JavaScript, C, C++, Ruby code execution](https://pythontutor.com/visualize.html#mode=display)
 
-
+***
 
 # 근데 왜 그렇게 소수가 중요한거야?🤨
 
