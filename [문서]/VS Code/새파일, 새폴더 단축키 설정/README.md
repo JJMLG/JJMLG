@@ -8,7 +8,7 @@ https://honeyinfo7.tistory.com/m/310
 
 2. Open Keyboard shortcut(JSON)
 
-3. 아래 코드 입력
+3. 아래와  코드 입력
 
    ```json
    [
