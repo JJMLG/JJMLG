@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # import sys
 
 M, N =map(int,input().split())
@@ -30,3 +31,6 @@ for i in arr:
 
 
 
+=======
+x
+>>>>>>> Stashed changes
