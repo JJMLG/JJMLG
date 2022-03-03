@@ -1,0 +1,3 @@
+- Shift + 숫자패드 = NumLock Off 상태의 숫자패드 입력
+  - ex1) Shift + 4(NumPad) = ←
+  - ex2) LShift + RShift + 4(NumPad) = Shift + ←
