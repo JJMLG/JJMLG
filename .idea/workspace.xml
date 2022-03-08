@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1797cd-a169-4a93-97ab-0595924ef858" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/슬기.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/슬기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/슬기.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/슬기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +16,39 @@
     <session id="-2085090162">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.3" value="6" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="29" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="998" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="998" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/슬기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,12 +57,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/슬기.py" />
+        <option value="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/input.txt" />
+        <option value="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/슬기.py" />
+        <option value="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/input.txt" />
+        <option value="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/동현.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/슬기.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/정원.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/해성.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/동현.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/정원.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/해성.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/C - [16935] [배열 돌리기 3]/동현.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/D - [3085] [사탕게임]/동현.py" />
+        <option value="$PROJECT_DIR$/03.08 ~ 03.15 구현/E - [1713] [후보 추천하기]/해성.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="995" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -60,17 +90,6 @@
             <path>
               <item name="JJMG" type="b2602c69:ProjectViewProjectNode" />
               <item name="JJMG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJMG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJMG" type="462c0819:PsiDirectoryNode" />
-              <item name="02.22 ~ 03.01 구현" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJMG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJMG" type="462c0819:PsiDirectoryNode" />
-              <item name="02.22 ~ 03.01 구현" type="462c0819:PsiDirectoryNode" />
-              <item name="C - [1969] [DNA]" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -91,6 +110,60 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.슬기 (1)">
+    <configuration name="슬기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JJMG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="슬기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JJMG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/슬기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.슬기" />
+      <item itemvalue="Python.슬기 (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.슬기 (1)" />
+        <item itemvalue="Python.슬기" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,22 +178,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="796" height="832" extended-state="0" />
+    <frame x="-8" y="0" width="784" height="832" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24901186" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17269076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26867816" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -129,13 +202,144 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="visited" language="Python" />
+        <watch expression="arr" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>arr</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visited</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/슬기.py">
+    <entry file="file://$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/동현.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="208">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.22 ~ 03.01 구현/C - [1969] [DNA]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/input.txt" />
+    <entry file="file://$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <marker date="1646670113239" expanded="true" signature="163:168" ph="..." />
+            <marker date="1646670113239" expanded="true" signature="246:251" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/동현.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/동현.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/정원.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/A - [2503] [숫자 야구]/해성.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/동현.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/정원.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/B - [14891] [톱니바퀴]/해성.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/C - [16935] [배열 돌리기 3]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/C - [16935] [배열 돌리기 3]/동현.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/C - [16935] [배열 돌리기 3]/정원.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/C - [16935] [배열 돌리기 3]/해성.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/D - [3085] [사탕게임]/동현.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/D - [3085] [사탕게임]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/D - [3085] [사탕게임]/정원.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/E - [1713] [후보 추천하기]/동현.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/E - [1713] [후보 추천하기]/슬기.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/E - [1713] [후보 추천하기]/정원.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/E - [1713] [후보 추천하기]/해성.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.08 ~ 03.15 구현/D - [3085] [사탕게임]/해성.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
