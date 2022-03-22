@@ -9,9 +9,9 @@ def dfs(i):
         print(' '.join(map(str,s)))
         return
     
-    for j in range(i, n+1):
+    for j in range(1, n+1): 
         s.append(j)
         dfs(j)
         s.pop()
     
-dfs(1)
+dfs(1)          
