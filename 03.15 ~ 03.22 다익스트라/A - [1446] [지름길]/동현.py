@@ -28,11 +28,11 @@ def dijkstra(start):
         dist, now = heapq.heappop(queue)
         if distance[now] < dist:
             continue
-        for i in arr[now]:
-            cost = dist + i[1]
-            if distance[i[0]] > cost:
-                distance[i[0]] = cost
-                heapq.heappush(queue,(cost,i[0]))
+        for end,length in arr[now]:
+            cost = dist + length
+            if distance[end] > cost:
+                distance[end] = cost
+                heapq.heappush(queue,(cost,end))
 
 dijkstra(0)
-print(distance[d])
+print(distance)
