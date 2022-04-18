@@ -10,7 +10,6 @@ result = []
 visited = [0] * 10
 anscount = 0
 finalcount=0
-
 for i in range(1, 10):
     visited = [0] * 10
     temp = []
