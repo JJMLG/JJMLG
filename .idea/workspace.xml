@@ -3,11 +3,77 @@
   <component name="ChangeListManager">
     <list default="true" id="df1797cd-a169-4a93-97ab-0595924ef858" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py" beforeDir="false" afterPath="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2085090162">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="474" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="474" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.8351206">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="5" selection-start-column="5" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,13 +100,15 @@
         <option value="$PROJECT_DIR$/03.15 ~ 03.22 다익스트라/D - [1916] [최소비용 구하기]/슬기.py" />
         <option value="$PROJECT_DIR$/04.09 ~ 04.12 몸풀기/A - [23305] [수강변경]/input.txt" />
         <option value="$PROJECT_DIR$/04.09 ~ 04.12 몸풀기/A - [23305] [수강변경]/슬기.py" />
+        <option value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/input.txt" />
+        <option value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-8" />
+    <option name="width" value="980" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectId" id="28CBPzY7fUBKDNKOtZxd2Dnix0Y" />
   <component name="ProjectView">
@@ -52,19 +120,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="JJMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="해성.py" type="b2602c69:ProjectViewProjectNode" />
               <item name="JJMG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JJMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="해성.py" type="b2602c69:ProjectViewProjectNode" />
               <item name="JJMG" type="462c0819:PsiDirectoryNode" />
-              <item name="04.09 ~ 04.12 몸풀기" type="462c0819:PsiDirectoryNode" />
+              <item name="04.19 ~ 04.26 구현 및 DFS&amp;BFS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JJMG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="해성.py" type="b2602c69:ProjectViewProjectNode" />
               <item name="JJMG" type="462c0819:PsiDirectoryNode" />
-              <item name="04.09 ~ 04.12 몸풀기" type="462c0819:PsiDirectoryNode" />
-              <item name="A - [23305] [수강변경]" type="462c0819:PsiDirectoryNode" />
+              <item name="04.19 ~ 04.26 구현 및 DFS&amp;BFS" type="462c0819:PsiDirectoryNode" />
+              <item name="D - 2583 영역 구하기" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -77,7 +145,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.슬기 (3)">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.슬기 (4)">
     <configuration name="슬기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JJMG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,6 +221,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="슬기 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JJMG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="슬기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JJMG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,9 +268,11 @@
       <item itemvalue="Python.슬기 (2)" />
       <item itemvalue="Python.슬기 (3)" />
       <item itemvalue="Python.슬기" />
+      <item itemvalue="Python.슬기 (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.슬기 (4)" />
         <item itemvalue="Python.슬기 (3)" />
         <item itemvalue="Python.슬기 (2)" />
         <item itemvalue="Python.슬기 (1)" />
@@ -177,7 +280,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,14 +295,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="782" height="831" extended-state="0" />
+    <frame x="-6" y="0" width="784" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18380062" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18364611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2682927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2672414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34913793" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,6 +315,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,6 +524,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
