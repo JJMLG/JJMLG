@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df1797cd-a169-4a93-97ab-0595924ef858" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AlgoStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/11654/11654.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/11654/11654.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/1316/1316.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/1316/1316.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/1436/1436.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/1436/1436.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JJMG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JJMG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py" beforeDir="false" afterPath="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/D - 2583 영역 구하기/슬기.py" afterDir="false" />
     </list>
@@ -11,6 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="-2085090162">
       <usages-collector id="statistics.lifecycle.project">
@@ -74,9 +87,17 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+>>>>>>> da5868e32332fcf0529775cf6443b0ad3d31ad0f
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../AlgoStudy" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,12 +126,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="980" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectId" id="28CBPzY7fUBKDNKOtZxd2Dnix0Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -145,6 +170,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -159,6 +185,10 @@
   </component>
   <component name="RunManager" selected="Python.슬기 (4)">
     <configuration name="슬기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.2290new">
+    <configuration name="해성" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> da5868e32332fcf0529775cf6443b0ad3d31ad0f
       <module name="JJMG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,11 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/A - 13335 트럭" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.01 ~ 03.08 백트래킹/A - [15649] [N과 M (1)]/슬기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/A - 13335 트럭/해성.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,19 +209,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="슬기 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JJMG" />
+    <configuration name="2290" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgoStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.15 ~ 03.22 다익스트라/D - [1916] [최소비용 구하기]" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2290" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.15 ~ 03.22 다익스트라/D - [1916] [최소비용 구하기]/슬기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2290/2290.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,18 +230,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="슬기 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JJMG" />
+    <configuration name="2290new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgoStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.09 ~ 04.12 몸풀기/A - [23305] [수강변경]" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2290" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.09 ~ 04.12 몸풀기/A - [23305] [수강변경]/슬기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -255,6 +286,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.22 ~ 03.01 구현/E - [16922] [로마 숫자 만들기]/슬기.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2290/2290new.py" />
+>>>>>>> da5868e32332fcf0529775cf6443b0ad3d31ad0f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,6 +298,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python.슬기 (1)" />
       <item itemvalue="Python.슬기 (2)" />
       <item itemvalue="Python.슬기 (3)" />
@@ -277,6 +312,17 @@
         <item itemvalue="Python.슬기 (2)" />
         <item itemvalue="Python.슬기 (1)" />
         <item itemvalue="Python.슬기" />
+=======
+      <item itemvalue="Python.2290" />
+      <item itemvalue="Python.해성" />
+      <item itemvalue="Python.2290new" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2290new" />
+        <item itemvalue="Python.2290" />
+        <item itemvalue="Python.해성" />
+>>>>>>> da5868e32332fcf0529775cf6443b0ad3d31ad0f
       </list>
     </recent_temporary>
   </component>
