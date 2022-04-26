@@ -11,9 +11,6 @@
       <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/1436/1436.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/1436/1436.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoStudy/backjoon/7568/7568.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JJMG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JJMG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,20 +97,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.2290new">
-    <configuration name="해성" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="JJMG" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\github\AlgoStudy\backjoon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.2583">
+    <configuration name="13335" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgoStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/A - 13335 트럭" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/13335" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.19 ~ 04.26 구현 및 DFS&amp;BFS/A - 13335 트럭/해성.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/13335/13335.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2290" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16926" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgoStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2290" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/16926" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2290/2290.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/16926/16926.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,16 +166,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2583" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgoStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2583" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/2583/2583.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9205" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgoStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgoStudy/backjoon/9205" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgoStudy/backjoon/9205/9205.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.2290" />
-      <item itemvalue="Python.해성" />
       <item itemvalue="Python.2290new" />
+      <item itemvalue="Python.2583" />
+      <item itemvalue="Python.16926" />
+      <item itemvalue="Python.9205" />
+      <item itemvalue="Python.13335" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2583" />
+        <item itemvalue="Python.13335" />
+        <item itemvalue="Python.9205" />
+        <item itemvalue="Python.16926" />
         <item itemvalue="Python.2290new" />
-        <item itemvalue="Python.2290" />
-        <item itemvalue="Python.해성" />
       </list>
     </recent_temporary>
   </component>
@@ -226,12 +274,28 @@
           <line>14</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../AlgoStudy/backjoon/2583/2583.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../AlgoStudy/backjoon/2583/2583.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../AlgoStudy/backjoon/2583/2583.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="graph" language="Python" />
-        <watch expression="distance" language="Python" />
+        <watch expression="result" language="Python" />
+        <watch expression="que" language="Python" />
+        <watch expression="record" language="Python" />
       </configuration>
     </watches-manager>
   </component>
