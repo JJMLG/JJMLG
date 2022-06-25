@@ -26,9 +26,12 @@ def solution(N, stages):
         for j in range(people):
             if i == stages[j]:
                 cnt += 1
-            # elif stages[j] == N + 1:
-            #     cnt = 0
-        fail.append((Fraction(cnt, now_people),i))
+
+        # 0으로 나눴을 때 처리
+        if cnt == 0 and now_people == 0:
+            fail.append((0, i))
+        else:
+            fail.append((Fraction(cnt, now_people), i))
     temp = sorted(fail, key=lambda x: (x[0], -x[1]), reverse=True)
     # print(temp)
     # print(temp[0][1])
