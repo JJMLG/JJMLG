@@ -20,6 +20,8 @@ def solution(board, moves):
                 if board[i][j] != 0 and moves[k] == j+1:
                     basket.append(board[i][moves[k]-1])
                     board[i][moves[k]-1] = 0
+                    pass
+                pass
     print(basket, '------ㅇㅕ기-------')
     return answer
 
