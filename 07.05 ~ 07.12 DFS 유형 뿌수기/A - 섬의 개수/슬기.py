@@ -3,15 +3,16 @@ sys.setrecursionlimit(99999)
 sys.stdin = open('input.txt')
 # from collections import deque
 
-dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 1]
+# 대각선 조건 몰랐음 [상, 하, 좌, 우, 좌상, 좌하, 우상, 우하]
+dx = [-1, 1, 0, 0, -1, 1, -1, 1]
+dy = [0, 0, -1, 1, -1, -1, 1, 1]
 
 # 대각선 조건 넣어야 됨
 def dfs(x, y):
     visited[x][y] = 1
     stack.append([x, y])
     # print(stack)
-    for k in range(4):
+    for k in range(8):
         nx = x + dx[k]
         ny = y + dy[k]
 
