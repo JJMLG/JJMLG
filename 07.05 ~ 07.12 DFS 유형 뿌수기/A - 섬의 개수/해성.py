@@ -1,5 +1,4 @@
 import sys
-sys.stdin=open('input.txt')
 sys.setrecursionlimit(10**6)
 def dfs(y,x):
     if maps[y][x] != 1:

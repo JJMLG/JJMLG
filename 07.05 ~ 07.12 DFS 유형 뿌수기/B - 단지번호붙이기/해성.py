@@ -1,5 +1,4 @@
 import sys
-sys.stdin=open('input.txt')
 # 상하좌우
 N = int(input())
 visited = [[0 for _ in range(N)] for _ in range(N)]
