@@ -33,6 +33,8 @@ def bfs():
                 # 벽이거나 이미 방문했으면
                 if maze[nx][ny] == "#" or visited[nx][ny] == 1:
                     continue
+
+                # 방문 체크
                 visited[nx][ny] = 1
                 q.append((nx, ny))
 
