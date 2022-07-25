@@ -1,7 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
 
-
 s = input()
 ans = set()
 #
