@@ -1,3 +1,4 @@
+# 다시 풀 문제
 import sys
 sys.stdin=open('input.txt')
 n = int(input())

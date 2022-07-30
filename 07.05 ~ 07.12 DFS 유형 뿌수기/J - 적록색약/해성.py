@@ -13,8 +13,7 @@ resultN = 0
 resultY = 0
 Y = [-1, 0, 1, 0]
 X = [0, 1, 0, -1]
-# result1 = {'R':0, 'G':0, 'B':0}
-# result2 = {'R':0, 'G':0, 'B':0}
+
 def dfsY(y, x, now):
     now = colorsY[y][x]
     colorsY[y][x] = 0
@@ -68,5 +67,3 @@ for i in range(N):
             # print(depth)
 print(resultY)
 print(resultN)
-
-
