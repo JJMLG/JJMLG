@@ -10,7 +10,6 @@ for i in range(lens):
         if temp_word in result:
             pass
         else:
-            # print(temp_word)
             result.add(temp_word)
 print(len(result))
 

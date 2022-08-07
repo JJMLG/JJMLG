@@ -15,7 +15,6 @@ for j in range(n):
 
 for k in range(n):
     for t in range(k+1,n):
-
         if dict[ls[k]] > dict[ls[t]]:
             cnt +=1 
             break

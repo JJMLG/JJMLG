@@ -1,7 +1,5 @@
 import sys
 sys.stdin=open('input.txt')
-# ins = dict()
-# outs =dict()
 N = int(input())
 ins=[0 for _ in range(N)]
 outs=[0 for _ in range(N)]
@@ -23,5 +21,5 @@ for i in range(len(ins)):
     outs = outs[n+1:]
     sums += n
     if len(outs)<=1:
-            print(sums)
-            break
+        print(sums)
+        break
