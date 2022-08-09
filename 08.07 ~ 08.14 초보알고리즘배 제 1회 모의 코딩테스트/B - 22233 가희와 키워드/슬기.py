@@ -1,4 +1,5 @@
 import sys
+<<<<<<< HEAD
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
@@ -17,3 +18,6 @@ for _ in range(m):
                 memo[i] -= 1
                 res -= 1
     print(res)
+=======
+sys.stdin = open('input.txt')
+>>>>>>> b078c0c7ac45814eace78ee30bbb542d6c81923a
