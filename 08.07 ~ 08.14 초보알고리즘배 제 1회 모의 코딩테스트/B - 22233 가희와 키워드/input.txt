@@ -1,0 +1,8 @@
+5 2
+map
+set
+dijkstra
+floyd
+os
+map,dijkstra
+map,floyd
