@@ -20,4 +20,6 @@ for j in range(m):
     
     print(tot-cnt)
     
-    
+'''
+23분 40초
+'''
