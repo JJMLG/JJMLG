@@ -3,11 +3,27 @@ sys.stdin = open('input.txt')
 
 t = int(input())
 
-temp = []
-
 for _ in range(t):
-    parenthesis = list(input())
-    print(parenthesis)
+    stack = []
+    parenthesis = input()
+    # print(parenthesis)
 
-    for i in range(len(parenthesis)-1, -1, -1):
-        print(parenthesis.pop(), i)
+    for i in parenthesis:
+        if not stack:
+            stack.append(i)
+        else:
+            if i == '(':
+                stack.append(i)
+            elif i == ')':
+                # print(stack, '23213')
+                if stack[-1] == '(':
+                    stack.pop()
+                else:
+                    stack.append(i)
+    # print(stack)
+
+    if not stack:
+        # print(stack)
+        print('YES')
+    else:
+        print('NO')
