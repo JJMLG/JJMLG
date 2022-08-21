@@ -1,2 +1,4 @@
-1
-ABBABB
+3
+ABAB
+AABB
+ABBA
