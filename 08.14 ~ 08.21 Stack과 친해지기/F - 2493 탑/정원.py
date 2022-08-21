@@ -7,9 +7,11 @@ T = list(map(int, input().split())) # tower
 S, result = [], [0] * N # stack
 for i in range(N):
     t = T[i]
-    while S and T[S[-1]] < t: S.pop()
+    while S and T[S[-1]] < t: S.pop() # 스택 정리
     if S: result[i] = S[-1] + 1
     S.append(i)
+    for s in S: print(T[s], end=' ')
+    print(S, result)
 print(*result)
 
 """

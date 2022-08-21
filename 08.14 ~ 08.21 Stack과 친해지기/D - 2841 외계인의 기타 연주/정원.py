@@ -4,6 +4,7 @@ input = sys.stdin.readline
 
 N, P = map(int, input().split()) # 놀랍게도 프렛은 영어도 Fret이다
 stack, result = [[] for _ in range(7)], 0 # 기타줄은 여섯줄 인덱스 맞추기
+print(stack)
 for n in range(N):
     S, F = map(int, input().split()) # string, fret
     if not stack[S]:
@@ -24,6 +25,9 @@ for n in range(N):
                 result += 1
         else: # F == stack[-1]
             pass
+    print(stack)
+    print(result)
+    print()
 print(result)
 
 """

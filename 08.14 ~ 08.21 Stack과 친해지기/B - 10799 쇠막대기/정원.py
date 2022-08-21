@@ -1,13 +1,15 @@
 B, result, S, j = input(), 0, [], 0 # bar, result, stack, laser index
 L = [i for i in range(1, len(B)) if B[i-1]+B[i] == '()'] # laser
+# print(L)
 for i in range(len(B)):
-    if B[i] == '(': S.append(B[i])
-    elif B[i] == ')':
+    # print(S, i, L[j])
+    if B[i] == '(': S.append(B[i]) # 쇠막대기 시작 or 레이저 시작
+    elif B[i] == ')': # 쇠막대기 끝 or 레이저 끝
         if i == L[j]: 
             S.pop()
-            result += len(S)
-            if j < len(L)-1: j += 1
-        else: S.pop(); result += 1
+            result += len(S) # 레이저로 컷팅
+            if j < len(L)-1: j += 1 # 쇠막대기? 레이저? 체크
+        else: S.pop(); result += 1 # 쇠막대기 끝
 print(result)
 
 """
@@ -30,4 +32,8 @@ len(stack) 만큼의 잘린 부분이 생겨난다
 156ms가 걸리면서, 약 4배의 시간단축을 보여주었다
 in이 진짜 느리긴 느리구나.. 실버 상위 문제부터는
 사용하기가 망설여진다
+"""
+
+"""
+if '()' in Stack
 """
