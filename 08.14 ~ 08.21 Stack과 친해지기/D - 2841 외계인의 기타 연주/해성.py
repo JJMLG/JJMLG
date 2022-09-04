@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-N,P = map(int, input().split())
+N, P = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 result = 1
 stack =[]

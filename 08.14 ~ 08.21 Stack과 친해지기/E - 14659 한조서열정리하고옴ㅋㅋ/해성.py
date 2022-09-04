@@ -5,7 +5,6 @@ arr = list(map(int, input().split()))
 result = []
 maxx=0
 cnt=0
-
 for i in range(N):
     cnt =0
     for j in range(i+1,N):
