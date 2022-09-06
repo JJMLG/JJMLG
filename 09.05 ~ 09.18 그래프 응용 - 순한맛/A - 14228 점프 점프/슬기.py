@@ -5,20 +5,18 @@ stone = int(input())
 distance = list(map(int, input().split()))
 start = int(input())
 
-visited = [0] + [0] * stone
+visited = [0] * stone
 
+cnt = 1
 
-def dfs(graph, s):
-    jump = graph[s]
+def dfs(s):
+    global visited, cnt
 
-    if visited[s+1] == 0:
-        visited[s+1] = 1
+    for nx in (s+distance[s], s-distance[s]):
+        if 0 <= nx < stone and visited[nx] == 0:
+            cnt += 1
+            visited[nx] = 1
+            dfs(nx)
 
-    
-
-
-
-# for i in range(1, len(distance)+1):
-#     if visited[start] == 0:
-#         visited[start] = 1
-#         dfs(distance, start)
+dfs(start-1)
+print(cnt)
