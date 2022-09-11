@@ -48,7 +48,6 @@ for _ in range(p):
             if board[i][j] == '*':
                 change_board[i][j] = 1
 
-
     for i in range(3):
         for j in range(3):
             if change_board[i][j] == 1:
