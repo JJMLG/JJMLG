@@ -42,3 +42,5 @@ while True:
 2. 녹이면서 진행하지 말고
     녹일 치즈들을 한 데 모아, 한 번에 녹인다
 """
+
+# https://www.acmicpc.net/problem/2636
