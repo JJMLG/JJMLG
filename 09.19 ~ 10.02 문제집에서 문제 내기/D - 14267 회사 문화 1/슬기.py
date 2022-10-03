@@ -23,4 +23,8 @@ dp[0] = 0
 dp[1] = dp[1] + graph[1][0]
 dp[2] = dp[1] + graph[2][0]
 dp[3] = dp[2] + graph[3][0]
+dp[4] = dp[3] + graph[4][0]
 print(dp[3])
+
+for i in range(len(graph)):
+    print(i)
