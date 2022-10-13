@@ -9,4 +9,6 @@ color = []
 
 for i in range(len(arr)):
     for j in range(len(arr[i])):
-        pass
+        print(arr[i][j])
+        if arr[i][j]:
+            pass
