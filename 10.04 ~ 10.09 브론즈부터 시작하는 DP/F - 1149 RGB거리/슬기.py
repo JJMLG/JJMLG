@@ -9,6 +9,20 @@ color = []
 
 for i in range(len(arr)):
     for j in range(len(arr[i])):
-        print(arr[i][j])
-        if arr[i][j]:
-            pass
+        pass
+
+
+"""
+1번 예
+26
+57
+13
+
+>> 6일 때
+5
+64
+19
+4
+84
+32
+"""
