@@ -1,4 +1,4 @@
-3 4
-JLA
-CRUO
-3
+3 3
+ABC
+DEF
+2

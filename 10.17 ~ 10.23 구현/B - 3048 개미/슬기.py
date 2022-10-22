@@ -6,3 +6,13 @@ ant1 = list(input())    # 왼 -> 오
 ant2 = list(input())    # 왼 <- 오
 t = int(input())
 
+new_ant1 = ant1[::-1]
+ans = new_ant1 + ant2
+
+for _ in range(t):
+    for i in range(len(ans) - 1):
+        if ans[i] in ant1 and ans[i+1] in ant2:
+            ans[i], ans[i+1] = ans[i+1], ans[i]
+            if ans[i+1] == new_ant1[-1]:
+                break
+print(''.join(ans))
