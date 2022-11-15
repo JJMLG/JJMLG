@@ -1,6 +1,6 @@
 import sys
 
-input = sys.stdin.readline
+# input = sys.stdin.readline
 
 N = int(input().rstrip())
 T, P = [], []
@@ -8,10 +8,15 @@ for _ in range(N):
     a, b = map(int, input().rstrip().split())
     T.append(a)
     P.append(b)
-dp = P[:] + [0] # 최대 수익을 동적으로 기록할 DP테이블
+dp = P + [0] # 최대 수익을 동적으로 기록할 DP테이블
+
+
 for i in range(N-1, -1, -1): # Top-Down
-    if T[i]+i > N: dp[i] = dp[i+1]
-    else: dp[i] = max(dp[i+1], P[i] + dp[i+T[i]])
+    print(dp)
+    if T[i]+i > N:
+        dp[i] = dp[i+1]
+    else:
+        dp[i] = max(dp[i+1], P[i] + dp[i+T[i]])
 print(dp[0])
 
 """
