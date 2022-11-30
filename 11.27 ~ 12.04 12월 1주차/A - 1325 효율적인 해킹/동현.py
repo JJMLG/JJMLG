@@ -1,10 +1,8 @@
-
 import sys
-# input = sys.stdin.readline
-sys.setrecursionlimit(10**6)
+
 from collections import deque
 from pprint import pprint
-sys.stdin = open('input.txt')
+
 
 n,m = map(int,input().split())
 arr = [[]*(n+1) for _ in range(n+1)]
@@ -16,11 +14,21 @@ for i in range(m):
 def dfs(start):
     global cnt
     
-    for i in range(len(arr[start])):
-        if visited[arr[start][i]] == 0:
-            cnt += 1
-            visited[arr[start][i]] = 1
-            dfs(arr[start][i])
+    # for i in range(len(arr[start])):
+    #     if visited[arr[start][i]] == 0:
+    #         cnt += 1
+    #         visited[arr[start][i]] = 1
+    #         dfs(arr[start][i])
+    queue = deque()
+    queue.append(start)
+
+    while queue:
+        t = queue.popleft()
+        for i in range(len(arr[t])):
+            if visited[arr[t][i]] == 0:
+                cnt += 1
+                visited[arr[t][i]] = 1
+                queue.append(arr[t][i])
             
 
 visited = [0]*(n+1)
@@ -43,4 +51,6 @@ for i in range(len(arr)):
         cnt = 0
 
 print(*nums)
+    
+
     
