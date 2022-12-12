@@ -1,17 +1,32 @@
+
 import sys
-sys.stdin = open('input.txt')
+import heapq
 
-n, k = map(int,input().split())
+from collections import deque
+from pprint import pprint
+
+left = 0
+right = (10**5) *20 +1
+n,k = map(int,input().split())
 ls = list(map(int,input().split()))
+ans = 0
+while left <= right:
 
+    mid = (left+right) //2
 
-start = 0 
-end = n-1
-mid = (start+end) // 2
-minn = min(sum(ls[0:mid]),sum(ls[mid:n]))
-print(minn)
-while start <= end:
-    mid = (start+end) // 2
-    print(ls[0:mid])
-    print(ls[mid:n])
-    break
+    score = 0
+    group = 0
+    for i in ls:
+        score += i
+        if score >= mid:
+            group += 1
+            score = 0
+    
+    if group >= k:
+        ans = mid
+        left = mid + 1
+    
+    elif group < k:
+        right = mid - 1
+
+print(mid)
