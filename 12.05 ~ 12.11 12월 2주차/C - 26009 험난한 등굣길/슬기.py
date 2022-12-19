@@ -13,7 +13,7 @@ def bfs(x, y):
     global visited, flag, cnt
     q = deque()
     q.append([x, y])
-    # visited[x][y] = 1
+    visited[x][y] = 1
 
     while q:
         # print(t)
@@ -29,15 +29,17 @@ def bfs(x, y):
                 if nnx == n and nny == m:
                     # cnt += 1
                     flag = 1
-                    return cnt + 1
+                    # return cnt + 1
+                    return visited[f][s]
 
-                if 0 < nnx <= n and 0 < nny <= m and local[nnx][nny] == 0:
-                    local[nnx][nny] = 1
+                if 0 < nnx <= n and 0 < nny <= m and local[nnx][nny] == 0 and visited[nnx][nny] == 0:
+                    # local[nnx][nny] = 1
+                    visited[nnx][nny] = visited[f][s] + 1
                     q.append([nnx, nny])
 
         cnt += 1
 
-    return cnt
+    # return cnt
 
 n, m = map(int, input().split())
 k = int(input())
