@@ -17,3 +17,8 @@ while start <= end:
     else:
         end = mid - 1
 print(result)
+
+"""
+랜선들을 자를 길이 result를 1부터 최대값인 sum(cables)//N까지 이분탐색
+탐색중인 mid 길이에서 N개로 자를 수 있다면 해당 값을 저장, 계속 탐색
+"""
