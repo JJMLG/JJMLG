@@ -4,7 +4,7 @@ N = int(input())
 print('*' * N + ' ' * (2 * (N - 1) - 1) + '*' * N)
 
 arr = []
-tmp = '*' + ' ' * (N - 2)  + '*'
+tmp = '*' + ' ' * (N - 2) + '*'
 
 for i in range(1, N - 1):
     arr.append(' ' * i + tmp + ' ' * (2 * (N - 1 - i) - 1) + tmp)
