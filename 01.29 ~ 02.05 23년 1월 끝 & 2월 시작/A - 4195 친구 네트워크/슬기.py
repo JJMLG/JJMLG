@@ -5,24 +5,19 @@ t = int(input())
 
 for _ in range(t):
     f = int(input())
-    network = {}
+    network = []
+
+    for i in range(1, f+1):
+        friend = input().split()
+        friend.sort()
+        if friend not in network:
+            network.append(friend)
+    network.sort(key=lambda x: x[0])
+    print(network)
+
     cnt = 0
-    for _ in range(f):
-        fr1, fr2 = input().split()
-        if fr1 not in network:
-            network[fr1] = 1
-        else:
-            network[fr1] += 1
-            # cnt += 1
 
-        if fr2 not in network:
-            network[fr2] = 1
-        else:
-            network[fr2] += 1
-            # cnt += 1
 
-        print(network)
-        print(cnt)
 
 
 """
