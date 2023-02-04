@@ -1,24 +1,42 @@
 import sys
 sys.stdin = open('input.txt')
 
+
+def union(x, y):
+    x = find(x)
+    y = find(y)
+
+    if x == y:
+        return
+    else:
+        parent[y] = x
+        visited[x] += visited[y]
+
+def find(z):
+    if z != parent[z]:
+        parent[z] = find(parent[z])
+    return parent[z]
+
 t = int(input())
 
 for _ in range(t):
     f = int(input())
-    network = []
+    parent = {}
+    visited = {}
+    for _ in range(f):
+        fr1, fr2 = input().split()
 
-    for i in range(1, f+1):
-        friend = input().split()
-        friend.sort()
-        if friend not in network:
-            network.append(friend)
-    network.sort(key=lambda x: x[0])
-    print(network)
+        if fr1 not in parent:
+            parent[fr1] = fr1
+            visited[fr1] = 1
 
-    cnt = 0
+        if fr2 not in parent:
+            parent[fr2] = fr2
+            visited[fr2] = 1
 
+        union(fr1, fr2)
 
-
+        print(visited[find(fr1)])
 
 """
 2
