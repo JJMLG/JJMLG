@@ -20,8 +20,6 @@ const [A, B] = require("fs")
 const lenA = A.length;
 const lenB = B.length;
 
-// let adjArr = Array.from({ length: A.length1 }, () => Array(B.length).fill(0));
-
 const adjArr = Array.from(Array(2000), () => Array().fill());
 for (let i = 0; i <= lenB; i++) {
   for (let j = 0; j <= lenA; j++) {
