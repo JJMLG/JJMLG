@@ -9,11 +9,6 @@ s_old = old
 visited = [0] * (len(old)+1)
 cnt = 0
 
-for i in old:
-    if i == name:
-       cnt += 1
-
-idx = 0
-for i in name:
-    for j in old:
+for j in name:
+    for i in old:
         pass
