@@ -1,23 +1,18 @@
 import sys
 sys.stdin = open('input.txt')
 
-n = input().split('(')
-# nn = n.
+n = list(input())
 print(n)
 
-ori = ''
 tmp = ''
+tmp_2 = ''
 stack = []
 flag = 0
-
-print(stack)
+for i in range(len(n)):
+    if n[i] == '(':
+        continue
+    elif n[i] == ')':
+        stack.pop()
 print(tmp)
-cnt = 0
-for i in stack:
-    if i == 'H':
-        cnt += 1
-    elif i == 'C':
-        cnt += 12
-    else:
-        cnt += 16
-print(cnt)
+print(tmp_2)
+print(stack)
