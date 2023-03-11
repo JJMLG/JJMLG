@@ -4,8 +4,6 @@ const Input = require("fs")
   .trim()
   .split("");
 
-const result = [];
-
 const visit = new Array(Input.length).fill(0);
 const solve = (start, end) => {
   if (start == end) return;
