@@ -10,8 +10,8 @@ const visit = new Array(Input.length).fill(0);
 const solve = (start, end) => {
   if (start == end) return;
   const minLetter = Input.slice(start, end).sort()[0];
-  const minIdx = Input.slice(start, end).indexOf(minLetter);
-  visit[start + minIdx] = 1;
+  const minIdx = Input.slice(start, end).indexOf(minLetter) + start;
+  visit[minIdx] = 1;
 
   let word = "";
   for (let i = 0; i < visit.length; i++) {
@@ -20,8 +20,8 @@ const solve = (start, end) => {
     }
   }
   console.log(word);
-  solve(start + minIdx + 1, end);
-  solve(start, start + minIdx);
+  solve(minIdx + 1, end);
+  solve(start, minIdx);
 };
 
 solve(0, Input.length);
