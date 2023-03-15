@@ -7,3 +7,4 @@ for _ in range(t):
     for _ in range(n):
         grade, rank = map(int, input().split())
         print(grade, rank)
+        print(n)
