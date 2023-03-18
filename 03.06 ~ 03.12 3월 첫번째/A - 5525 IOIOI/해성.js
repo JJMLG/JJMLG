@@ -33,6 +33,7 @@ while (idx < M) {
   idx++;
 }
 let result = 0;
+console.log(IOIarr);
 IOIarr.map((el) => {
   const num = (el.length - 1) / 2 - N + 1;
   result += num < 0 ? 0 : num;
