@@ -5,7 +5,6 @@ n, b, a = map(int, input().split())
 present = list(map(int, input().split()))
 present.sort()
 visited = [0] * n
-sale = 0
 tmp = 0
 cnt = 0
 # idx = 0
