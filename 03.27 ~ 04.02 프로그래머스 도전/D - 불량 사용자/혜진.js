@@ -23,7 +23,7 @@ function solution(user_id, banned_id) {
       if (used[i] > 0) continue             // 이미 제재된 아이디면 continue
       if (isBannedId(banned_id[bIdx], user_id[i])) {
         used[i] = bIdx + 1                  // 몇 번째인지 보기 편하려고 1이 아닌 bIdx + 1 사용
-        // console.log(used)                // 디버깅
+        console.log(used)                // 디버깅
         recur(idxs + String(i), bIdx + 1)
         used[i] = 0
       }
