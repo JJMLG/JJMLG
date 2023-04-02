@@ -17,7 +17,7 @@ def solution(babbling):
 
     for i in babbling:
         if i in tmp:
-            print(i)
+            # print(i)
             answer += 1
 
     return answer
