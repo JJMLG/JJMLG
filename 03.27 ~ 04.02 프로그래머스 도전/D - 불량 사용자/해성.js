@@ -29,13 +29,9 @@ function solution(user_id, banned_id) {
   makeComb(0, banned_id.length, user_id.length, "");
   let answer = new Set();
 
-  let re = comb.map((el) =>
-    el
-      .split("")
-      .map(Number)
-      .sort((a, b) => a - b)
-  );
-  re.map((el) => answer.add(el.join("")));
+  let re = comb
+    .map((el) => el.split("").map(Number).sort())
+    .map((el) => answer.add(el.join("")));
 
   return answer.size;
 }
