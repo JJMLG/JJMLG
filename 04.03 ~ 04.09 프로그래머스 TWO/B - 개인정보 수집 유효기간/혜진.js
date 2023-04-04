@@ -1,6 +1,7 @@
 const makeDateNum = (date) => {
-  date = date.split('.').map(v => parseInt(v))
-  return date[2] + (date[1] * 28) + (date[0] * 12 * 28)
+  date = date.split('.')
+  // JS에서 string * number => number
+  return (date[2] * 1) + (date[1] * 28) + (date[0] * 12 * 28)
 }
 
 function solution(today, terms, privacies) {
@@ -9,7 +10,7 @@ function solution(today, terms, privacies) {
   const month = new Object()
   terms.forEach(t => {
     t = t.split(' ')
-    month[t[0]] = parseInt(t[1]) * 28
+    month[t[0]] = t[1] * 28
   });
 
   const ans = []
