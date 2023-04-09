@@ -6,14 +6,12 @@ function solution(babbling) {
         case "a":
           el = el.split("aya").join("");
           break;
-
         case "y":
           el = el.split("ye").join("");
           break;
         case "w":
           el = el.split("woo").join("");
           break;
-
         default:
           el = el.split("ma").join("");
       }
