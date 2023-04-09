@@ -1,8 +1,8 @@
 A - 등수 매기기
-https://school.programmers.co.kr/learn/courses/30/lessons/178871
+https://school.programmers.co.kr/learn/courses/30/lessons/120882
 
 B - 달리기 경주
-https://school.programmers.co.kr/learn/courses/30/lessons/120882
+https://school.programmers.co.kr/learn/courses/30/lessons/178871
 
 C - 이모티콘 할인행사
 https://school.programmers.co.kr/learn/courses/30/lessons/150368
