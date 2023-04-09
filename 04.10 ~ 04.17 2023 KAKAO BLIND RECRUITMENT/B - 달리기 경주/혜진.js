@@ -20,18 +20,18 @@ function solution(players, callings) {
 }
 
 
-function solution(players, callings) {
-  const race = {}
-  players.forEach((name, i) => race[name] = i)
+// function solution(players, callings) {
+//   const race = {}
+//   players.forEach((name, i) => race[name] = i)
   
-  callings.forEach(name => {
-    let idx = race[name]
-    let prevName = players[idx - 1]
-    players[idx] = prevName
-    players[idx - 1] = name
-    race[name]--
-    race[prevName]++
-  })
+//   callings.forEach(name => {
+//     let idx = race[name]
+//     let prevName = players[idx - 1]
+//     players[idx] = prevName
+//     players[idx - 1] = name
+//     race[name]--
+//     race[prevName]++
+//   })
   
-  return Object.entries(race).sort((a, b) => a[1] - b[1]).map(v => v[0])
-}
+//   return Object.entries(race).sort((a, b) => a[1] - b[1]).map(v => v[0])
+// }
