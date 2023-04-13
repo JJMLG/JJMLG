@@ -1,20 +1,21 @@
+  // 할인하는 모든 경우의 수를 구한다
+const discount = []
+const recur = (arr, cur, dep) => {
+  if (cur === dep) {
+    discount.push([...arr])
+    return
+  }
+  [10, 20, 30, 40].forEach(v => {
+    arr[cur] = v
+    recur(arr, cur + 1, dep)
+  })
+}
+
 function solution(users, emoticons) {
   const emoL = emoticons.length
   let ans = [0, 0]
-
-  // 할인하는 모든 경우의 수를 구한다
-  const discount = []
-  const recur = (arr, cur, dep) => {
-    if (cur === dep) {
-      discount.push([...arr])
-      return
-    }
-    [10, 20, 30, 40].forEach(v => {
-      arr[cur] = v
-      recur(arr, cur + 1, dep)
-    })
-  }
   recur(new Array(emoL).fill(0), 0, emoL)
+  // console.log(discount.length)
   
   // 경우의 수를 하나씩 꺼내서
   discount.forEach(discountArr => {
@@ -41,3 +42,8 @@ function solution(users, emoticons) {
   })
   return ans
 }
+
+console.log(solution([[40, 10000], [25, 10000]], [7000, 9000]))
+// [1, 5400]
+console.log(solution([[40, 2900], [23, 10000], [11, 5200], [5, 5900], [40, 3100], [27, 9200], [32, 6900]], [1300, 1500, 1600, 4900]))
+// [4, 13860]
