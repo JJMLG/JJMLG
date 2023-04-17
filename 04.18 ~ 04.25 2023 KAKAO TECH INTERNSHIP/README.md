@@ -1,11 +1,11 @@
-A - 등수 매기기
-https://school.programmers.co.kr/learn/courses/30/lessons/120882
+A - 성격 유형 검사하기
+https://school.programmers.co.kr/learn/courses/30/lessons/118666
 
-B - 달리기 경주
-https://school.programmers.co.kr/learn/courses/30/lessons/178871
+B - 두 큐 합 같게 만들기
+https://school.programmers.co.kr/learn/courses/30/lessons/118667
 
-C - 이모티콘 할인행사
-https://school.programmers.co.kr/learn/courses/30/lessons/150368
+C - 등산코스 정하기
+https://school.programmers.co.kr/learn/courses/30/lessons/118669
 
-D - 미로 탈출 명령어
-https://school.programmers.co.kr/learn/courses/30/lessons/150365
+D - 코딩 테스트 공부
+https://school.programmers.co.kr/learn/courses/30/lessons/118668
