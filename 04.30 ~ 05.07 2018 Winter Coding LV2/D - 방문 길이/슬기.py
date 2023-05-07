@@ -1,28 +1,22 @@
-def solution(alp, cop, problems):
-    max_alp_req, max_cop_req = [0, 0]  # 목표값
+def solution(dirs):
+    answer = set()  # set()을 통해 중복을 제거
+    d = {"U": [1, 0], "D": [-1, 0], "R": [0, 1], "L": [0, -1]}
 
-    for problem in problems:
-        max_alp_req = max(max_alp_req, problem[0])
-        max_cop_req = max(max_cop_req, problem[1])
+    x, y = 0, 0
 
-    dp = [[float('inf')] * (max_cop_req + 1) for _ in range(max_alp_req + 1)]
+    # 반복문을 통해 명령어를 수행
+    for i in dirs:
+        dx, dy = d[i]
 
-    alp = min(alp, max_alp_req)  # 둘중 하나라도 목표값을 넘어가면 안된다.
-    cop = min(cop, max_cop_req)
+        # 이동해야하는 좌표
+        nx = x + dx
+        ny = y + dy
 
-    dp[alp][cop] = 0  # dp[i][j]의 의미 : 알고력 i, 코딩력 j을 도달 할 수 있는 최단시간
+        # 범위 내에 있다면 명령어 수행
+        if -5 <= nx <= 5 and -5 <= ny <= 5:
+            answer.add((x, y, nx, ny))  # 현재 위치 -> 이동 후 위치
+            answer.add((nx, ny, x, y))  # 이동 후 위치 -> 현재 위치
+            x, y = nx, ny  # 이동 위치로 현재 위치 변경
 
-    for i in range(alp, max_alp_req + 1):
-        for j in range(cop, max_cop_req + 1):
-            if i < max_alp_req:
-                dp[i + 1][j] = min(dp[i + 1][j], dp[i][j] + 1)
-            if j < max_cop_req:
-                dp[i][j + 1] = min(dp[i][j + 1], dp[i][j] + 1)
-
-            for alp_req, cop_req, alp_rwd, cop_rwd, cost in problems:
-                if i >= alp_req and j >= cop_req:
-                    new_alp = min(i + alp_rwd, max_alp_req)  # 둘중 하나라도 목표값을 넘어가면 안된다.
-                    new_cop = min(j + cop_rwd, max_cop_req)
-                    dp[new_alp][new_cop] = min(dp[new_alp][new_cop], dp[i][j] + cost)
-
-    return dp[max_alp_req][max_cop_req]
+    # answer를 2로 나눴을 때 몫이 처음 걸어본 길이가 된다.
+    return len(answer) // 2
