@@ -1,17 +1,20 @@
 # 개념 설명
-
 # 예제 코드
-
 # 추가 설명(필요하면)
 
-1. 캐시
-   <https://school.programmers.co.kr/learn/courses/30/lessons/17680>
 
-2. 명예의 전당 (1)
-   <https://school.programmers.co.kr/learn/courses/30/lessons/138477>
 
-3. 기사단원의 무기
-   <https://school.programmers.co.kr/learn/courses/30/lessons/136798>
+1. 두 원 사이의 정수 쌍
+https://school.programmers.co.kr/learn/courses/30/lessons/181187
 
-4. 괄호 회전하기
-   <https://school.programmers.co.kr/learn/courses/30/lessons/76502>
+
+2. 연속된 부분 수열의 합
+https://school.programmers.co.kr/learn/courses/30/lessons/178870
+
+
+3. 호텔 대실
+https://school.programmers.co.kr/learn/courses/30/lessons/155651
+
+
+4. 뒤에 있는 큰 수 찾기
+https://school.programmers.co.kr/learn/courses/30/lessons/154539
