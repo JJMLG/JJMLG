@@ -12,7 +12,7 @@ class Solution {
                 answer++;
             }else{
                 if(caches.size()>=cacheSize){
-                    caches.remove(0);
+                    caches.remove(); // 첫번째 지우기
                     caches.add(findCities);
                     answer+=5;
                 }else{
