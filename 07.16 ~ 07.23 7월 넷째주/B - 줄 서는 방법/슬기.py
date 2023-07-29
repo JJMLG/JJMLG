@@ -29,3 +29,38 @@ def solution(n, k):
         n -= 1
 
     return answer
+
+
+"""
+def solution(n, k):
+    answer = []
+    visited = [0 for _ in range(n)]
+
+    cnt = 0
+    tmp = []
+    def recur(cur):
+        nonlocal cnt, tmp
+        if cur == n:
+            cnt += 1
+            if cnt == k:
+                # print(cnt, '?')
+                tmp = answer[:]
+                # print(tmp)
+            # print(answer)
+            return
+        
+        for i in range(1, n + 1):
+            if visited[i-1]:
+                continue
+            visited[i-1] = True
+            answer.append(i)
+            recur(cur+1)
+            answer.pop()
+            visited[i-1] = False
+            
+        
+    recur(0)
+    # recur(0, 0)
+    
+    return tmp
+"""
