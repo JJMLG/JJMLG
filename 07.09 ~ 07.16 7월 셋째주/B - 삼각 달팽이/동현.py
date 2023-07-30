@@ -19,4 +19,5 @@ def solution(n):
     for i in res:
         for j in i:
             if j:
-                answe
+                answer.append(j)
+    return answer
