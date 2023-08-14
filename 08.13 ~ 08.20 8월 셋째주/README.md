@@ -10,6 +10,8 @@ https://school.programmers.co.kr/learn/courses/30/lessons/148653
 B - 물주기
 https://www.acmicpc.net/problem/23351
 
-C -
+C - 나무꾼 이다솜 (1421)
+
+https://www.acmicpc.net/problem/1421
 
 D -
