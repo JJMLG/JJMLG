@@ -14,9 +14,6 @@ for i in range(m):
 
 
 while t >0:
-    
-    
-     
     visited= [0]*(n+m)
     for i in range(n+m-1):
         if visited[i] == 0:
