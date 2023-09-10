@@ -12,18 +12,13 @@ for _ in range(k):
 for _ in range(k):
     m.append(list(map(int, input().split())))
 
+tmp = 0
 hap = 0
 visited = [0] * (n+10)
 print(visited)
 for i in range(k):
-    for j in range(n):
-        if visited[i] != 1:
-            if hap < r[i][j]:
-                hap += r[i][j]
-                visited[i] = 1
-                # break
+    tmp = max(r[i].index(max(r[i])))
+    print()
+
 print(visited)
 print(hap)
-        # if r[i][j]
-        # print(r[i][j])
-        # print(r[i][j])
