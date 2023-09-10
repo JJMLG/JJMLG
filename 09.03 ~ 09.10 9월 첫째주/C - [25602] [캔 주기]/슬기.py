@@ -1,14 +1,29 @@
 import sys
 sys.stdin = open('input.txt')
 
-max_value = 0
+n, k = map(int, input().split())
+a = list(map(int, input().split()))
 
-for _ in range(int(input())) :
-    a, d, g = map(int, input().split())
-    if a == d + g :
-        value = a * (d + g) * 2
-    else :
-        value = a * (d + g)
-    max_value = max(value, max_value)
+r = []
+m = []
+for _ in range(k):
+    r.append(list(map(int, input().split())))
+# print(r)
+for _ in range(k):
+    m.append(list(map(int, input().split())))
 
-print(max_value)
+hap = 0
+visited = [0] * (n+10)
+print(visited)
+for i in range(k):
+    for j in range(n):
+        if visited[i] != 1:
+            if hap < r[i][j]:
+                hap += r[i][j]
+                visited[i] = 1
+                # break
+print(visited)
+print(hap)
+        # if r[i][j]
+        # print(r[i][j])
+        # print(r[i][j])
