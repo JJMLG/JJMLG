@@ -19,13 +19,10 @@ def dfs(x, lst):
 
 for i in range(m):
     v,w = map(int,input().split())
-    # if v == w:
-    #     arr[v].append(w)
-    #     continue
-    
+
     arr[v].append(w)
     arr[w].append(v)
-
+print(arr)
 
 for i in range(n):
     if visited[i] != 0 :
