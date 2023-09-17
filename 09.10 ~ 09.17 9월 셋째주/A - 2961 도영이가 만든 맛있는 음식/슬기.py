@@ -1,5 +1,7 @@
 from itertools import combinations
 from functools import reduce
+import sys
+sys.stdin = open('input.txt')
 
 n = int(input())
 
