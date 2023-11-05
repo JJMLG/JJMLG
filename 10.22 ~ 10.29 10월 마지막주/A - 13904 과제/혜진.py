@@ -1,8 +1,5 @@
-from heapq import heappush, heappop
-
 N = int(input())
 ans = maxday = 0
-work = [False] * (maxday + 1)
 
 Q = []
 for _ in range(N):
@@ -10,6 +7,7 @@ for _ in range(N):
     Q.append([d, w])
     maxday = max(maxday, d)
 Q.sort(key=lambda x:(-x[1], x[0]))
+work = [False] * (maxday + 1)
 
 for d, w in Q:
     for i in range(d, 0, -1):
